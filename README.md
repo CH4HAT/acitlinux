@@ -66,3 +66,9 @@ To write the content of the public key you use the command below (OpenAI, chatgp
 ```
 Cat ~/.ssh/id_ed25519.pub
 ```
+### 3. Install ‘doctl’ on your droplet:
+'doctl' is a tool provided by DigitalOcean that allows you to manage your digitalOcean resources from the terminal. For example, in this assignment, doctl is used to create a new droplet in the existing droplet.
+Use the command below:
+```
+Sudo pacman -S doctl
+```
