@@ -157,7 +157,7 @@ Now that the droplet is created and configured, use SSH to connect to it:
 ssh your-username@your-new-droplet-ip
 ```
 You can find the droplet's IP address in the DigitalOcean dashboard. Now you should see you new droplet running.
-![Connecting to it](assets/finalstep)
+![Connecting to it](assets/finalstep.png)
 
 ### Conclusion:
 In this Assignment, you have:
