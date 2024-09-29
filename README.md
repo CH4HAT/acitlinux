@@ -57,7 +57,8 @@ Username = the username you gave to your droplet
 
 ### 2. Create SSH key pair on your Arch Droplet:
 Use the command below:
-``` ssh-keygen -t ed25519 -C “your-email”
+``` 
+ssh-keygen -t ed25519 -C “your-email”
 ```
 Notice that there is not specific path, In Linux it goes to a default location that is “~./.ssh/”
 Now copy the content of the key and paste to to your DigitialOcean account as we did before.
