@@ -83,3 +83,6 @@ Doctl auth init
 Enter the token when prompted 
 
 ![doctl authentication](assets/doctl_token.png)
+
+### 5. Create the cloud-config file (cloud-init configuration file):
+Cloud-init helps to automate the droplet setup (create users, install packages and disable root access). Use the command below:
