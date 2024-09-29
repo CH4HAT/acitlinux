@@ -25,7 +25,7 @@ This will create two keys:
 - In the navigation bar on the left Click Settings -> Security -> SSH keys.
 - Paste your public key here (The key you just created)
 
-![DigitalOcean SSH keys](assents/ssh_do.png)
+![DigitalOcean SSH keys](assets/ssh_do.png)
 
 #### 3. Create an Arch Linux Droplet:
 In the DigitalOcean web console:
@@ -53,7 +53,7 @@ ssh username@your-droplet-IP address
 ```
 Username = the username you gave to your droplet
 
-![SSH key on your Arch Machine](assets/sshkkey_virtual.png)
+![SSH key on your Arch Machine](assets/sshkey_virtual.png)
 
 ### 2. Create SSH key pair on your Arch Droplet:
 Use the command below:
