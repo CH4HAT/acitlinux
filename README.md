@@ -150,3 +150,11 @@ To confirm the droplet was created, use:
 doctl compute droplet list
 ```
 This will display a list of all droplets, including the one you just created.
+
+#### 8. Connect to the New Droplet:
+Now that the droplet is created and configured, use SSH to connect to it:
+```
+ssh your-username@your-new-droplet-ip
+```
+You can find the droplet's IP address in the DigitalOcean dashboard. Now you should see you new droplet running.
+![Connecting to it](assets/finalstep)
