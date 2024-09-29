@@ -72,3 +72,4 @@ Use the command below:
 ```
 Sudo pacman -S doctl
 ```
+![doct installation](assets/doctl.png)
