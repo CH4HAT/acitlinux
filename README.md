@@ -86,3 +86,34 @@ Enter the token when prompted
 
 ### 5. Create the cloud-config file (cloud-init configuration file):
 Cloud-init helps to automate the droplet setup (create users, install packages and disable root access). Use the command below:
+
+```
+Vim ~/cloud-config.yml
+```
+~ = home directory 
+Now add the following to the file:
+
+```
+#cloud-config
+users:
+  - name: chahat      # Replace with your username
+    primary_group: linux     # Replace with your group
+    groups: wheel
+    shell: /bin/bash
+    sudo: ['ALL=(ALL) NOPASSWD:ALL']
+    ssh-authorized-keys:
+      - ssh-ed25519 AAA...  # Your public key here
+
+packages:
+  - ripgrep
+  - rsync
+  - neovim
+  - fd
+  - less
+  - man-db
+  - bash-completion
+  - tmux
+
+disable_root: true
+```
+![Cloud-config file](assets/config.png)
