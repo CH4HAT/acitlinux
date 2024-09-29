@@ -54,3 +54,14 @@ ssh username@your-droplet-IP address
 Username = the username you gave to your droplet
 
 ![SSH key on your Arch Machine](assets/sshkkey_virtual.png)
+
+### 2. Create SSH key pair on your Arch Droplet:
+Use the command below:
+``` ssh-keygen -t ed25519 -C “your-email”
+```
+Notice that there is not specific path, In Linux it goes to a default location that is “~./.ssh/”
+Now copy the content of the key and paste to to your DigitialOcean account as we did before.
+To write the content of the public key you use the command below (OpenAI, chatgpt4, 2023):
+```
+Cat ~/.ssh/id_ed25519.pub
+```
