@@ -73,3 +73,11 @@ Use the command below:
 Sudo pacman -S doctl
 ```
 ![doct installation](assets/doctl.png)
+
+### 4. Authenticate ‘doctl’ using DigitalOcean API Token:
+To link ‘doctl’ with you DigitalOcean account, you authenticate it. First you create API token from your DigitalOcean account (API -> Tokens)
+Use the command below to authenticate it:
+```
+Doctl auth init
+```
+Enter the token when prompted 
