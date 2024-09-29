@@ -81,3 +81,5 @@ Use the command below to authenticate it:
 Doctl auth init
 ```
 Enter the token when prompted 
+
+![doctl authentication](assets/doctl_token.png)
