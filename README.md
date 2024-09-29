@@ -46,3 +46,11 @@ ssh -i ~/.ssh/your-key username@your-droplet-IPaddress
 ## Level 3 – Creating and Managing droplets using ‘doctl’ and cloud-init
 Now you have a running Arch linux machine, you will be creating another droplet in the running Arch linux machine and you will Install and configure `doctl` in an existing droplet(one you have) and use it to create a new droplet.
 
+### 1. Use SSH to get into your existing droplet:
+Use the command below:
+```
+Ssh username@your-droplet-IP address
+```
+Username = the username you gave to your droplet
+
+![SSH key on your Arch Machine](assets/sshkkey_virtual.png)
