@@ -158,3 +158,10 @@ ssh your-username@your-new-droplet-ip
 ```
 You can find the droplet's IP address in the DigitalOcean dashboard. Now you should see you new droplet running.
 ![Connecting to it](assets/finalstep)
+
+### Conclusion:
+In this Assignment, you have:
+- Created Arch Linux image using DigitalOcean.
+- Created and managed SSH keys.
+- Configured cloud-init to automate the droplet setup.
+- Used ‘doctl’ to create new droplet and then connect to it via SSH. 
