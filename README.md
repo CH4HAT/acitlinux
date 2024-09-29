@@ -144,3 +144,9 @@ We have used size = s-1vcpu-1gb because it is the standard size for the cpu on D
 
 ![New Droplet](assets/success_creating.png)
 
+#### 7. Verify the New Droplet:
+To confirm the droplet was created, use:
+```
+doctl compute droplet list
+```
+This will display a list of all droplets, including the one you just created.
