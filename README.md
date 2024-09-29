@@ -49,7 +49,7 @@ Now you have a running Arch linux machine, you will be creating another droplet 
 ### 1. Use SSH to get into your existing droplet:
 Use the command below:
 ```
-Ssh username@your-droplet-IP address
+ssh username@your-droplet-IP address
 ```
 Username = the username you gave to your droplet
 
