@@ -165,3 +165,13 @@ In this Assignment, you have:
 - Created and managed SSH keys.
 - Configured cloud-init to automate the droplet setup.
 - Used ‘doctl’ to create new droplet and then connect to it via SSH. 
+
+### References:
+
+-	INIT documentation¶. cloud. (n.d.). https://docs.cloud-init.io/en/latest/index.html 
+-	How to use cloud-config for your initial server setup. DigitalOcean. (n.d.). https://www.digitalocean.com/community/tutorials/how-to-use-cloud-config-for-your-initial-server-setup 
+-	Doctl Command Line Interface (CLI). DigitalOcean Documentation. (n.d.). https://docs.digitalocean.com/reference/doctl/ 
+-	OpenAI, chatgpt3,(2023) (mainly for the final proofing and cat command)
+-	McNinch, N. (n.d.). 2420-notes/week-three.md · main · cit_2420 / 2420-notes-F24 · GITLAB. GitLab. https://gitlab.com/cit2420/2420-notes-f24/-/blob/main/2420-notes/week-three.md 
+-	McNinch, N. (n.d.-b). https://gitlab.com/cit2420/2420-notes-f24/-/blob/main/2420-notes/week-two.md 
+-	Markdown guide. Markdown Guide. (n.d.). https://www.markdownguide.org/
