@@ -117,3 +117,30 @@ packages:
 disable_root: true
 ```
 ![Cloud-config file](assets/config.png)
+
+### 6. Create a New Droplet using ‘doctl’:
+
+Now, use 'doctl' to create a new droplet with the cloud-init configuration. First, get your SSH key ID and image ID:
+
+- List your SSH keys:
+  ```
+  doctl compute ssh-key list
+  ```
+- find the image ID (use the grep command to search for "qco" images):
+  ```
+  doctl compute image list | grep "qco"
+  ```
+
+Create the droplet:
+```
+doctl compute droplet create "new-droplet-name" \
+  --size s-1vcpu-1gb \
+  --image "image-id" \
+  --region sfo3 \
+  --ssh-keys "ssh-key-id" \
+  --user-data-file ~/cloud-config.yml
+```
+We have used size = s-1vcpu-1gb because it is the standard size for the cpu on DigitalOcean.
+
+![New Droplet](assets/success_creating.png)
+
